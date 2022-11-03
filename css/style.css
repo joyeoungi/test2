@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+
+img{display: block; width: 100%;}
+
+#wrap{
+    width: 80%; margin: 0 auto;
+}
+/* 
+header{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    
+} */
+nav{
+    padding-bottom: 20px;
+}
+#slider{
+    padding-bottom: 30px;
+}
+#contents{
+    padding-bottom: 30px;
+}
+#map{
+    padding-bottom: 30px;
+}
+/* #notice{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    left: 300px;
+}
+footer{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    left: 300px;
+} */
+
+@media screen and (max-width:1024px) {
+    img{display: block;}
+}
